@@ -1,0 +1,131 @@
+Grid
+
+O BS tem um poderoso sistema de grid com flexbox mobile-first para a construção de layout de todas as formas com um sistema de 12 colunas.
+
+Para isso o BS usa algumas classes:
+
+.col-* - Essa classe é usada para colunas da grid para determinar a largura da coluna e o ponto de interrupção que você gostaria que ela estivesse ativa. As classes funcionam a partir do ponto de interrupção que você definiu e tudo que for maior. 
+.col-(sm, md, lg, xl)-(1-12)
+
+Lembrando os breakpoints suportados pelo bS:
+
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+
+    Extra small (xs)
+    Small (sm)
+    Medium (md)
+    Large (lg)
+    Extra large (xl)
+    Extra extra large (xxl)
+
+Exemplo com largura igual (col)
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col">
+      2 of 3
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+
+Ao redimensionar a largura da tela as colunas redimensional da maior até a menor largura.
+
+As classes container:
+
+.container
+.container-fluid - 100% da largura da tela
+.container-sm
+.container-md
+.container-lg
+
+Espaço entre as colunas - Os gutters também são responsivos e personalizáveis. As classes Gutter estão disponíveis em todos os pontos de interrupção, com todos os mesmos tamanhos que nossa margem e padding. Altere gutters horizontal com classes .gx-*, gutters verticais com .gy-* ou todas os gutters com classes .g-*. .g-0 também está disponível para remover gutters.
+
+Exemplo variando a quantidade de colunas
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-5">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">.col-6</div>
+    <div class="col-6">.col-6</div>
+  </div>
+</div>
+
+Podemos mudar a ordem das colunas
+
+    <div class="row">
+        <div class="col">A</div>
+        <div class="col">B</div>
+        <div class="col">C</div>
+    </div>
+
+Acima aparecerá na ordem indicada, mas abaixo seguirá o comando das classes order-*
+
+    <div class="row">
+        <div class="col order-3">A</div>
+        <div class="col order-2">B</div>
+        <div class="col order-1">C</div>
+    </div>
+
+Evitar o uso da classe order-, ao invés disso usar a ordem manualmente.
+
+https://getbootstrap.com/docs/5.2/layout/grid/
+https://getbootstrap.com/docs/5.2/layout/columns/
+
+

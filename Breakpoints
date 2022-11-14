@@ -1,0 +1,20 @@
+Breakpoints
+
+Conceitos principais
+
+     Pontos de interrupção são os blocos de construção do design responsivo. Use-os para controlar quando seu layout pode ser adaptado em uma determinada viewport ou tamanho de dispositivo.
+
+     Use media queries para arquitetar seu CSS por ponto de interrupção. As media queries são um recurso do CSS que permite aplicar estilos condicionalmente com base em um conjunto de parâmetros do navegador e do sistema operacional. Geralmente usamos min-width ou max-width em nossas consultas de mídia.
+
+     Mobile first, design responsivo é o objetivo. O CSS do Bootstrap visa aplicar o mínimo de estilos para fazer um layout funcionar no menor ponto de interrupção e, em seguida, camadas de estilos para ajustar esse design para dispositivos maiores. Isso otimiza seu CSS, melhora o tempo de renderização e oferece uma ótima experiência para seus visitantes.
+
+O Bootstrap inclui 6 breakpoints por default:
+
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+
+

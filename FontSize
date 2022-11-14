@@ -1,0 +1,23 @@
+Font size
+
+Quickly change the font-size of text. While our heading classes (e.g., .h1–.h6) apply font-size, font-weight, and line-height, these utilities only apply font-size. Sizing for these utilities matches HTML’s heading elements, so as the number increases, their size decreases.
+
+.fs-1 text
+
+.fs-2 text
+
+.fs-3 text
+
+.fs-4 text
+
+.fs-5 text
+
+.fs-6 text
+html
+
+<p class="fs-1">.fs-1 text</p>
+<p class="fs-2">.fs-2 text</p>
+<p class="fs-3">.fs-3 text</p>
+<p class="fs-4">.fs-4 text</p>
+<p class="fs-5">.fs-5 text</p>
+<p class="fs-6">.fs-6 text</p>

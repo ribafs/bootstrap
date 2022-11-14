@@ -1,0 +1,19 @@
+O Bootstrap usa um grid de 12 colunas
+
+Exemplo
+
+Criar uma linha usando a classe row e dentro dela duas colunas de 6 colunas usando a classe col-md-6, cada uma com 6 colunas de largura
+
+<div class="row">
+    <div class="col-md-6" style="padding:30px 50px;">
+        <div class="container" style="padding:30px;border:1px solid gray;">
+        <!-- FAQ Collapse -->
+        </div>
+    </div>
+    <div class="col-md-6" style="padding:30px 50px;">
+        <div class="container" style="padding:30px;border:1px solid gray;">
+        <!-- Contact Form -->
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,15 @@
+Text transform
+
+Transform text in components with text capitalization classes.
+
+Lowercased text.
+
+Uppercased text.
+
+CapiTaliZed text.
+html
+
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+

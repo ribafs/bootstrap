@@ -1,0 +1,266 @@
+Flex
+
+Gerencie rapidamente o layout, alinhamento e dimensionamento de colunas do grid, navegação, componentes e muito mais com um conjunto completo de utilitários flexbox responsivos. Para implementações mais complexas, CSS personalizado pode ser necessário.
+
+Classe
+.d-flex - display: flex
+
+<div class="d-flex p-2">I'm a flexbox container!</div>
+
+<div class="d-inline-flex p-2">I'm an inline flexbox container!</div>
+
+    .d-flex
+    .d-inline-flex
+    .d-sm-flex
+    .d-sm-inline-flex
+    .d-md-flex
+    .d-md-inline-flex
+    .d-lg-flex
+    .d-lg-inline-flex
+    .d-xl-flex
+    .d-xl-inline-flex
+    .d-xxl-flex
+    .d-xxl-inline-flex
+
+Alinhamento pela esquerda
+<div class="d-flex flex-row mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+Pela direita
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+Flex column
+
+<div class="d-flex flex-column mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-column-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+
+Variações
+
+
+    .flex-row
+    .flex-row-reverse
+    .flex-column
+    .flex-column-reverse
+    .flex-sm-row
+    .flex-sm-row-reverse
+    .flex-sm-column
+    .flex-sm-column-reverse
+    .flex-md-row
+    .flex-md-row-reverse
+    .flex-md-column
+    .flex-md-column-reverse
+    .flex-lg-row
+    .flex-lg-row-reverse
+    .flex-lg-column
+    .flex-lg-column-reverse
+    .flex-xl-row
+    .flex-xl-row-reverse
+    .flex-xl-column
+    .flex-xl-column-reverse
+    .flex-xxl-row
+    .flex-xxl-row-reverse
+    .flex-xxl-column
+    .flex-xxl-column-reverse
+
+Alinhamento do conteúdo
+
+<div class="d-flex justify-content-start">Start</div>
+<div class="d-flex justify-content-end">End</div>
+<div class="d-flex justify-content-center">center</div>
+<div class="d-flex justify-content-between">entre</div>
+<div class="d-flex justify-content-around">ao redor</div>
+<div class="d-flex justify-content-evenly">evenly</div>
+
+Variações
+
+
+    .justify-content-start
+    .justify-content-end
+    .justify-content-center
+    .justify-content-between
+    .justify-content-around
+    .justify-content-evenly
+    .justify-content-sm-start
+    .justify-content-sm-end
+    .justify-content-sm-center
+    .justify-content-sm-between
+    .justify-content-sm-around
+    .justify-content-sm-evenly
+    .justify-content-md-start
+    .justify-content-md-end
+    .justify-content-md-center
+    .justify-content-md-between
+    .justify-content-md-around
+    .justify-content-md-evenly
+    .justify-content-lg-start
+    .justify-content-lg-end
+    .justify-content-lg-center
+    .justify-content-lg-between
+    .justify-content-lg-around
+    .justify-content-lg-evenly
+    .justify-content-xl-start
+    .justify-content-xl-end
+    .justify-content-xl-center
+    .justify-content-xl-between
+    .justify-content-xl-around
+    .justify-content-xl-evenly
+    .justify-content-xxl-start
+    .justify-content-xxl-end
+    .justify-content-xxl-center
+    .justify-content-xxl-between
+    .justify-content-xxl-around
+    .justify-content-xxl-evenly
+
+<div class="d-flex align-items-start">Start</div>
+<div class="d-flex align-items-end">End</div>
+<div class="d-flex align-items-center">Center</div>
+<div class="d-flex align-items-baseline">Baseline</div>
+<div class="d-flex align-items-stretch">Strech</div>
+
+Variações
+
+
+    .align-items-start
+    .align-items-end
+    .align-items-center
+    .align-items-baseline
+    .align-items-stretch
+    .align-items-sm-start
+    .align-items-sm-end
+    .align-items-sm-center
+    .align-items-sm-baseline
+    .align-items-sm-stretch
+    .align-items-md-start
+    .align-items-md-end
+    .align-items-md-center
+    .align-items-md-baseline
+    .align-items-md-stretch
+    .align-items-lg-start
+    .align-items-lg-end
+    .align-items-lg-center
+    .align-items-lg-baseline
+    .align-items-lg-stretch
+    .align-items-xl-start
+    .align-items-xl-end
+    .align-items-xl-center
+    .align-items-xl-baseline
+    .align-items-xl-stretch
+    .align-items-xxl-start
+    .align-items-xxl-end
+    .align-items-xxl-center
+    .align-items-xxl-baseline
+    .align-items-xxl-stretch
+
+Margens automáticas
+
+O Flexbox pode fazer coisas incríveis quando você mistura alinhamentos flexíveis com margens automáticas. Abaixo estão três exemplos de controle de itens flexíveis por meio de margens automáticas: padrão (sem margem automática), empurrando dois itens para a direita (.me-auto) e empurrando dois itens para a esquerda (.ms-auto).
+
+<div class="d-flex mb-3">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex mb-3">
+  <div class="me-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex mb-3">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="ms-auto p-2">Flex item</div>
+</div>
+
+Align itens
+
+<div class="d-flex align-items-start flex-column mb-3" style="height: 200px;">
+  <div class="mb-auto p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+</div>
+
+<div class="d-flex align-items-end flex-column mb-3" style="height: 200px;">
+  <div class="p-2">Flex item</div>
+  <div class="p-2">Flex item</div>
+  <div class="mt-auto p-2">Flex item</div>
+</div>
+
+Alinhar conteúdo
+
+Use utilitários align-content em contêineres flexbox para alinhar itens flex juntos no eixo cruzado. Escolha entre o início (padrão do navegador), final, centro, entre, ao redor ou alongamento. Para demonstrar esses utilitários, aplicamos flex-wrap: wrap e aumentamos o número de itens flexíveis.
+
+Atenção! Esta propriedade não tem efeito em linhas únicas de itens flexíveis.
+
+<div class="d-flex align-content-start flex-wrap">
+  ...
+</div>
+
+<div class="d-flex align-content-end flex-wrap">...</div>
+
+<div class="d-flex align-content-center flex-wrap">...</div>
+
+<div class="d-flex align-content-between flex-wrap">...</div>
+
+<div class="d-flex align-content-around flex-wrap">...</div>
+
+<div class="d-flex align-content-stretch flex-wrap">...</div>
+
+Variações
+
+
+    .align-content-start
+    .align-content-end
+    .align-content-center
+    .align-content-between
+    .align-content-around
+    .align-content-stretch
+    .align-content-sm-start
+    .align-content-sm-end
+    .align-content-sm-center
+    .align-content-sm-between
+    .align-content-sm-around
+    .align-content-sm-stretch
+    .align-content-md-start
+    .align-content-md-end
+    .align-content-md-center
+    .align-content-md-between
+    .align-content-md-around
+    .align-content-md-stretch
+    .align-content-lg-start
+    .align-content-lg-end
+    .align-content-lg-center
+    .align-content-lg-between
+    .align-content-lg-around
+    .align-content-lg-stretch
+    .align-content-xl-start
+    .align-content-xl-end
+    .align-content-xl-center
+    .align-content-xl-between
+    .align-content-xl-around
+    .align-content-xl-stretch
+    .align-content-xxl-start
+    .align-content-xxl-end
+    .align-content-xxl-center
+    .align-content-xxl-between
+    .align-content-xxl-around
+    .align-content-xxl-stretch
+
+
+https://getbootstrap.com/docs/5.2/utilities/flex/

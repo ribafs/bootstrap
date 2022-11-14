@@ -1,0 +1,31 @@
+Classes
+
+table
+
+Ajuda usar as tabelas dentro de sistema de grid para maior controle
+
+Para usar as demais classes tabela, precisamos usar sempre a classe table, que é a base.
+
+table-hover
+table-stripped
+table-success
+table-dark
+table-bordered
+table-sm
+
+https://getbootstrap.com/docs/5.2/content/tables/
+
+Cor no cabeçalho
+
+<table class="table">
+  <thead class="table-dark">
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+</table>
+
+Podemos alinhar as colunas usando a classe text-{start/center/end}
+
+

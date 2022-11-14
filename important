@@ -1,0 +1,8 @@
+Quando estamos usando o bootstrap e desejamos sobrescrever uma das suas classes
+Criamos uma classe com o mesmo nome da classe do bootstrap e usamos o !important
+
+.text-primary{
+    color: red !important;
+}
+
+

@@ -1,0 +1,13 @@
+Offset é uma coluna em branco
+
+    <div class="row">
+        <div class="offset-sm-6 col-sm-6">A</div> (Aqui a primeira metada da linha ficará vazia e a segunda metada com a letra A
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">A</div>
+        <div class="offset-sm-4 col-sm-4">C</div>
+    </div>
+Assim teremos as primeiras 4 colunas com A, as próximas 4 colunas vazias e as 4 últimas com C
+
+https://getbootstrap.com/docs/5.2/layout/columns/#reordering
